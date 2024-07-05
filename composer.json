@@ -1,0 +1,21 @@
+{
+    "name": "mices/nova-responsive",
+    "description": "A laravel nova package to enhance Nova UI",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mices\\NovaResponsive\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jiahow99",
+            "email": "jia_how99@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
