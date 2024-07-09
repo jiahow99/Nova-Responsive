@@ -6,7 +6,7 @@
 
 
 function initStickySidebar() {
-    console.log('Sticky sidebar loaded');
+    console.log('Sticky sidebar loaded')
 
 	const sidebar = document.querySelectorAll('.sidebar-menu')[1]
 	const heider_height = document.querySelector('header').offsetHeight
