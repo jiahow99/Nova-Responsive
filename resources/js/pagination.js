@@ -11,10 +11,14 @@ export function centerPagination() {
     const observer = new MutationObserver(function (mutations) {
 		mutations.forEach(function (mutation) {
             const wrapper = document.querySelector('nav[per-page]')
+            
+            if (!wrapper) return
+
             const pagination = wrapper.children[0]
             const pagecount = wrapper.children[1]
-        
-            if (!wrapper || !pagination || !pagecount) return
+
+            if (!pagination || !pagecount) return
+
             if (wrapper.classList.contains('center-applied')) return
         
             wrapper.classList.add('justify-center', 'center-applied')
